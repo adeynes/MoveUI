@@ -1,0 +1,16 @@
+name: MoveUI
+main: adeynes\MoveUI\MoveUI
+version: 0.0.1
+api: 3.2.0
+author: adeynes
+description: The collection of the brilliant ideas of the masterminds @ PocketMine Discord
+website: https://github.com/adeynes/MoveUI
+
+commands:
+  move:
+    description: Displace thyself
+    permission: moveui.move
+
+permissions:
+  moveui.move:
+    default: true
